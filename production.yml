@@ -18,7 +18,7 @@ services:
       - redis
     volumes:
       - shared_static:/app/staticfiles
-      - media:/app/media
+      - media:/app/chitweb/media
     env_file:
       - ./.envs/.production/.django
       - ./.envs/.production/.postgres
